@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap");
+:root {
+  --bs-primary: #f5c385;
+  --bs-primary-opacity: rgba(255, 142, 0, 0.18);
+  --bs-dark: #333;
+  --bs-gray-dark: #797571;
+  --bs-gray: #9c9791;
+  --bs-secondary: #7a786f;
+  --bs-btn: rgba(156, 153, 150, 0.18);
+  --bs-border: #bbb9af;
+  --bs-white: #fff;
+  --bs-white-opacity: rgba(255, 255, 255, 0.5);
+  --bs-font-sans-serif: "Noto Sans KR", sans-serif;
+}
+
+html {
+  font-size: 13px;
+}
+
+body {
+  font-weight: 400;
+  color: var(--bs-dark);
+}
+
+* {
+  font-family: "Gowun Batang", "Noto Serif KR", serif;
+  line-height: 1.8;
+}
+
+main {
+  width: 100%;
+}
+
+.text-secondary {
+  color: var(--bs-secondary) !important;
+}
+
+dd,
+p {
+  margin: 0;
+}
